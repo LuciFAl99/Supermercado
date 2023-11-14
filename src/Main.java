@@ -19,7 +19,6 @@ public class Main {
             System.out.println(producto.toString());
         }
         System.out.println("=============================");
-        Collections.sort(productos);
         Producto productoMasCaro = Collections.max(productos);
         Producto productoMasBarato = Collections.min(productos);
         System.out.println("Producto más caro: " + productoMasCaro.getNombre());
